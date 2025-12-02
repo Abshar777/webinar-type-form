@@ -93,19 +93,19 @@ const questions: Question[] = [
       "Grow My Existing Business",
     ],
   },
-  {
-    id: "heardAboutWebinar",
-    type: "select",
-    title: "6. How Did You Hear About This Webinar?",
-    subtitle: "Source",
-    required: true,
-    options: [
-      "Instagram",
-      "Facebook",
-      "Through Delta Counsellor",
-      "Other",
-    ],
-  },
+  // {
+  //   id: "heardAboutWebinar",
+  //   type: "select",
+  //   title: "6. How Did You Hear About This Webinar?",
+  //   subtitle: "Source",
+  //   required: true,
+  //   options: [
+  //     "Instagram",
+  //     "Facebook",
+  //     "Through Delta Counsellor",
+  //     "Other",
+  //   ],
+  // },
 ];
 
 
@@ -236,7 +236,7 @@ const Index = () => {
           PhoneNumber: answers.mobileNumber,
           Occupation: answers.occupation,
           GoalForWebinar: answers.goalForWebinar,
-          HeardAboutWebinar: answers.heardAboutWebinar,
+          HeardAboutWebinar:"",
          
         }),
       });

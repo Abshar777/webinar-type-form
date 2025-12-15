@@ -24,10 +24,10 @@ export function FormWelcome({ onStart }: FormWelcomeProps) {
             WEBINAR FORM
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground font-medium mb-2">
-            Digital Marketing For Housewives
+            AI Revolution in Digital Marketing 
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-             From Kitechen To Clicks - Webinar with Delta Digital Academy, Dubai, UAE
+            Webinar with Delta Digital Academy,Dubai,UAE
             </p>
           </div>
 

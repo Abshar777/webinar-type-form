@@ -24,7 +24,7 @@ export function FormWelcome({ onStart }: FormWelcomeProps) {
             WEBINAR FORM
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground font-medium mb-2">
-            AI Revolution in Digital Marketing 
+            Why digital marketers will earn more in 2026
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
             Webinar with Delta Digital Academy,Dubai,UAE

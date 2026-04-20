@@ -16,31 +16,6 @@ interface Question {
   placeholder?: string;
 }
 
-// ## Application Form for Delta Digital Academy
-// ### Section 1: Personal Details
-// 1. Full Name: _____________________________________________________
-// 2. Email Address: _____________________________________________________
-// 3. Phone Number: _____________________________________________________
-// 4. Date of Birth: _____________________________________________________
-
-// ### Section 2: Educational Background
-// 1. Highest Qualification: _____________________________________________________
-// 2. Institution Name: _____________________________________________________
-// 3. Field of Study: _____________________________________________________
-
-// ### Section 3: Course Interest
-// 1. Which course are you interested in at Delta Digital Academy? (Select one or more)
-//     - Digital Marketing
-//     - Data Science
-//     - Web Development
-//     - Other (please specify) _______________________
-
-// ### Section 4: Additional Information
-// 1. How did you hear about Delta Digital Academy? _____________________________________________________
-// 2. What are your career goals, and how do you think Delta Digital Academy can help you achieve them? _____________________________________________________
-
-// ### Section 5: Submission
-// 1. By submitting this application, I confirm that the information provided is accurate and true.
 const questions: Question[] = [
   {
     id: "fullName",
